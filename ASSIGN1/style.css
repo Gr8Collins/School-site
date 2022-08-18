@@ -1,0 +1,207 @@
+body{background-color: rgba(100,0,0,0.6); margin:0px; 
+
+ }
+
+
+*{
+	box-sizing: border-box;
+}
+
+.main{
+	display: flex;
+	align-content:center ;
+	margin: 0px;
+	background-color: red;
+	line-height: 10px;
+	flex-wrap: wrap;
+}
+
+	.im1{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+#im{
+	width: 40%;vertical-align: top;
+}
+
+#im2{ padding: 10px; text-align: justify; font-size: 18px;
+ font-weight: 4pt; font-family:serif; text-indent: 20px; width: 60%; vertical-align: top;}
+
+ #imgx{
+	width:500px;
+	height:500px ;
+}
+
+
+
+.main1{
+	font-size: 20px; font-family: cursive; color: white;
+}
+
+#but{
+	background-color: red;
+	color: yellow; border: 0px;
+	box-shadow: green;
+}
+
+nav ul {
+	margin:0px; 
+list-style-type: none; padding-left: 300px; 
+}
+
+nav ul  li{
+	display:inline-block;}
+
+nav ul li:hover{
+	background-color: blue;
+}
+
+nav ul ul{  
+display:none;position: absolute; background-color:white;width: 10px;
+}
+
+
+nav ul li:hover>ul {
+ display:block; 
+} 
+nav ul ul li{
+display:block;
+}
+
+
+
+nav ul li a:link {
+display:block; padding:10px; text-decoration:none; color:#fff; font-size:14px; font-family:arial; font-weight:bold;}
+
+nav ul li a,visited {
+display:block; padding:10px; text-decoration:none; color:#fff; font-size:14px; font-family:arial; font-weight:bold;
+}
+nav ul li a: hover {
+ color:yellow;
+}
+nav ul li a:focus {
+background-color:pink;
+}
+
+
+
+
+
+	
+
+
+
+
+#small_nav{
+	display: none;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+.Menu{
+	display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:640px){
+
+nav{
+	display: none;
+}
+
+#im2{margin-top: 100px;padding: 10px; text-align: justify; font-size: 14px; 
+	width: 100%;
+	text-align: center; 
+}
+#imgx{
+	width:95%;
+	height:100% ;
+}
+
+#im{
+	width: 100%;
+	text-align: center;
+}
+
+#small_nav div {
+	display:none;
+}
+#small_nav a{
+	display: block;
+	color: green;
+	
+}
+
+.Menu{
+	top: 30px;
+	right: 5px;
+	position: absolute;
+	display: block;
+	font-size: 30px;
+background-color: yellow;}
+}
+
+@media screen and (max-width:400px){
+
+nav{
+	display: none;
+}
+
+
+
+#small_nav div {
+	display:none;
+}
+#small_nav a{
+	display: block;
+	color: green;
+	
+}
+
+.Menu{
+	top: 30px;
+	right: 5px;
+	position: absolute;
+	display: block;
+	font-size: 20px;
+background-color: yellow;}
+}
+@media screen and (max-width:768px){
+
+nav{
+	display: none;
+}
+
+
+
+#small_nav div {
+	display:none;
+}
+#small_nav a{
+	display: block;
+	color: green;
+	
+}
+
+.Menu{
+	top: 30px;
+	right: 5px;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+background-color: yellow;}
+}
+
